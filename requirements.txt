@@ -1,0 +1,8 @@
+# Tested together on macOS with Python 3.14 (these versions need Python 3.11+).
+streamlit==1.66.1
+youtube-transcript-api==1.2.4
+python-dotenv==1.2.4
+pydantic==2.14.1
+requests==2.34.2
+pypdf==6.21.2
+trafilatura==2.3.1

@@ -1,0 +1,9 @@
+# Server address is deliberately not set here: Streamlit Community Cloud needs
+# to bind the app itself. When running on your own computer, add
+# `--server.address 127.0.0.1` to the run command so only this machine can reach it.
+[server]
+# Matches the app's own 25 MB limit for PDFs and downloads.
+maxUploadSize = 25
+
+[browser]
+gatherUsageStats = false
